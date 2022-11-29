@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class GithubActionController {
-    @GetMapping("/123")
+    @GetMapping("/test")
     public String githubActionTest() throws Exception {
         System.out.println("test");
         return "123123github action test 1231313";
