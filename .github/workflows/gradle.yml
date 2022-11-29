@@ -42,7 +42,7 @@ jobs:
 
     - name: executing 
       run: |
-          sudo docker rm -f $(docker ps -q)
+          sudo docker rm -f $(docker ps -q -a)
           sudo docker pull sweun2/githubaction:test
           docker-compose -f ~/githubaction/docker-compose.yml up -d
           docker image prune -f

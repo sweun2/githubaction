@@ -1,3 +1,5 @@
 services:
   web:
     image: sweun2/githubaction:test
+    ports:
+      - 8080:8080
