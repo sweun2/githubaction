@@ -10,6 +10,6 @@ public class GithubActionController {
     @GetMapping("/test")
     public String githubActionTest() throws Exception {
         System.out.println("test");
-        return "123123github action test 1231313";
+        return "github action test";
     }
 }
