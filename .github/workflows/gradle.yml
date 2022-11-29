@@ -49,5 +49,5 @@ jobs:
         script: |
           sudo docker rm -f $(docker ps -q)
           sudo docker pull sweun2/githubaction:test
-          docker-compose -f ./docker-compose.yml up -d
+          docker-compose -f ~/docker-compose.yml up -d
           docker image prune -f
