@@ -1,0 +1,3 @@
+services:
+  web:
+    image: sweun2/githubaction:test
